@@ -20,4 +20,4 @@ Inter-Integrated Circuit je sériový komunikační protokol používaný pro ko
 Přenos dat se zahajuje START bitem (S), když je SDA nízká, zatímco SCL zůstává vysoká. Pak, SDA nastaví přenášený bit zatímco SCL je nízká (modrá) a jsou odebrány vzorky dat (přijaté) při SCL stoupá (zelená). Když je přenos dokončen, je poslaný STOP bit (P) pro uvolnění datové linky, změnou SDA na vysokou, zatímco SCL je trvale vysoký. Aby se zabránilo falešně detekci, je úroveň na SDA změněn na negativní hraně a je zachycen na kladné hrany SCL.
 
 # Zapojení
-![zapojení](https://github.com/prokyber/r-duino-led-temperature-sensor/blob/main/img/teplomer_schema.png)
+<img alt="zapojení" src="https://github.com/prokyber/r-duino-led-temperature-sensor/blob/main/img/teplomer_schema.png" style=" Height: 80vh; Width: 25vw">
