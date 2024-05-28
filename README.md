@@ -9,9 +9,13 @@ Cílem tohoto projektu je vytvořit funkční pokojový teploměr, který nám p
 - [nepájivé pole](https://e-shop.prokyber.cz/konektory/nepajive-pole-170-pinu/)
 
 # BMP180
+<img alt="BMP180" src="https://github.com/prokyber/r-duino-led-temperature-sensor/blob/main/img/460_aht10-full.webp" style=" Height: 40vh;">
+
 Jedná se o senzor teploty, tlaku a nadmořské výšky. Je vybaven citlivým polovodičem (např. silikon), který při změně barometrického tlaku změní i svůj odpor. Tuto změnu je pak naše deska schopná zaznamenat a vypočítat z ní teplotu, přibližnou nadmořskou výšku a další jiném věci. Pro komunikaci se senzorem použijeme protocol I2C.
 
 # TM1637
+<img alt="TM1637" src="https://github.com/prokyber/r-duino-led-temperature-sensor/blob/main/img/inbound2943900078589920553.jpg" style=" Height: 40vh;">
+
 Jedná se 4-ciferný 7-segmentový displej s dvoutečkou pro zobrazení času. V našem projektu dvojtečku potřebovat, ale je dobré vědět že ji můžete použít při projektech vlastních. S modulem se komunikuje za pomocí sériové komunikace přes dva kabely. Tato forma komunikace je velmi složitá, a proto pro jednoduchost budeme používat externí knihovnu.
 
 # I2C
@@ -34,7 +38,6 @@ Přenos dat se zahajuje START bitem (S), když je SDA nízká, zatímco SCL zůs
 - GND -> GND
 - Pin 3 -> DIO
 - Pin 2 -> CLK
-- 
 
 # Nastavení desky
 <img alt="Nastavení desky" src="https://github.com/prokyber/r-duino-led-temperature-sensor/blob/main/img/Nastaveni_desky_teplomer.png" style="Height: 30vh;">
