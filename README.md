@@ -34,3 +34,10 @@ Přenos dat se zahajuje START bitem (S), když je SDA nízká, zatímco SCL zůs
 - GND -> GND
 - Pin 3 -> DIO
 - Pin 2 -> CLK
+
+### Nastavení desky
+<img alt="Nastavení desky" src="https://github.com/prokyber/r-duino-led-temperature-sensor/blob/main/img/Nastaveni_desky_teplomer.png" style="Height: 30vh;">
+
+Před tím než desku zapojíte do počítače, nastavte zabudovaný DIP switch na hodnotu ukázanou na obrázku. (světlé části jsou vystouplé výběžky přepínače) Poku jste již desku zpojili, je možné ji resetovat kovovým tlačítkem v levém horním rohu. Po zapojení by se měl program spustit.
+
+Budete-li chtít hru opakovat stačí zmáčknout výše zmíněné tlačítko RESTART.
