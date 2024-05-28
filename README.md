@@ -35,6 +35,7 @@ Přenos dat se zahajuje START bitem (S), když je SDA nízká, zatímco SCL zůs
 - Pin 3 -> DIO
 - Pin 2 -> CLK
 
+
 ### Nastavení desky
 <img alt="Nastavení desky" src="https://github.com/prokyber/r-duino-led-temperature-sensor/blob/main/img/Nastaveni_desky_teplomer.png" style="Height: 30vh;">
 
